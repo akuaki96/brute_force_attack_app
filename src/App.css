@@ -1,4 +1,42 @@
-.App {
+.page-wrapper {
+  height: 800px;
+  margin: 0 auto;
+  width: 500px;
+  /* background: red; */
+}
+
+.page-contents {
+  text-align: center;
+  border: 1px solid #c0c0c05e;
+  margin-top: 40px;
+  padding-bottom: 20px;
+}
+
+.page-contents h2 {
+  background-color: #c0c0c05e;
+  border-bottom: 1px solid #c0c0c05e;
+  margin-top: 0;
+  font-weight: 300;
+  color: rgba(0, 0, 0, 0.708);
+}
+
+.login-box {
+  background-color: rgba(5, 5, 197, 0.82);
+  color: white;
+  border-style: none;
+  display: block;
+  padding: 100 0;
+}
+
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  margin: auto;
+  gap: 20px;
+}
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +73,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
