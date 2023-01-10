@@ -1,5 +1,7 @@
 import { useState } from "react";
-import "./App.css";
+import classes from "./components/CssModule.module.scss";
+
+// import {userId}
 
 export const App = () => {
   console.log("さいしょ");
@@ -23,12 +25,13 @@ export const App = () => {
 
   return (
     <div>
-      <div className="page-wrapper">
-        <div className="page-contents">
+      <div className={classes.pageWrapper}>
+        <div className={classes.pageContents}>
           <h2 style={{ fontFamily: "serif" }}>Shin-Lab</h2>
-          <div className="form-wrapper">
+
+          <div className={classes.formWrapper}>
             <input
-              className="id"
+              className={classes.id}
               type="text"
               placeholder="ID"
               value={userId}
@@ -36,14 +39,18 @@ export const App = () => {
             />
 
             <input
-              className="pass"
+              className={classes.pass}
               type="text"
               placeholder="password"
               value={pass}
               onChange={onChangePassText}
             />
 
-            <button className="login-box" type="submit" onClick={onClickLogin}>
+            <button
+              className={classes.loginBox}
+              type="submit"
+              onClick={onClickLogin}
+            >
               ログイン
             </button>
           </div>

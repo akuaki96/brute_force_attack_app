@@ -1,18 +1,18 @@
-.page-wrapper {
+.pageWrapper {
   height: 800px;
   margin: 0 auto;
   width: 500px;
   /* background: red; */
 }
 
-.page-contents {
+.pageContents {
   text-align: center;
   border: 1px solid #c0c0c05e;
   margin-top: 40px;
   padding-bottom: 20px;
 }
 
-.page-contents h2 {
+.pageContents h2 {
   background-color: #c0c0c05e;
   border-bottom: 1px solid #c0c0c05e;
   margin-top: 0;
@@ -23,12 +23,11 @@
 .id {
   padding: 4px;
 }
-
 .pass {
   padding: 4px;
 }
 
-.login-box {
+.loginBox {
   background-color: rgba(17, 17, 213, 0.8);
   border-radius: 10px;
   color: white;
@@ -37,12 +36,12 @@
   padding: 4px;
 }
 
-.login-box:hover {
+.loginBox:hover {
   background-color: rgba(17, 17, 213, 0.6);
   cursor: pointer;
 }
 
-.form-wrapper {
+.formWrapper {
   display: flex;
   flex-direction: column;
   width: 35%;
